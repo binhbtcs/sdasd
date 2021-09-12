@@ -1,0 +1,1043 @@
+@charset "utf-8";
+/* CSS Document */
+.top{
+	width: 1910px;
+	height: auto;
+	margin-top: -9px;
+	margin-left: -15px
+}
+.menu{
+	width: 100%;
+	height: 80px;
+	background-color:#24262a;
+	float: left;
+}
+.logomenu{
+	width: 310px;
+	height: 55px;
+	margin-top: 9px;
+	margin-left: 40px;
+	background-image:url( "../images/r6s-y6-logo.webp");
+	background-size: contain;
+	float: left;
+	
+}
+.logomenu2{
+	width: 1050px;
+	height: 80px;
+	background-color: #24262a;
+	float:left;
+	
+	
+}
+.logomenu2 ul{
+/*	bo dau gach dau dong*/
+	list-style: none;
+	margin: 3px;
+	padding: 0;
+	font-family: r6;
+	box-sizing: border-box;
+	padding-left: 20px;
+	
+}
+.logomenu2 ul li{
+	padding: 20px;
+	float: left;
+	position: relative;
+	
+	
+}
+.logomenu2 ul li a{
+	text-decoration: none;
+	color: aliceblue;
+	
+}
+.logomenu2 ul li:hover {
+	border-bottom:5px solid aqua;
+	padding-bottom: 13px;
+	
+	
+	
+}
+.logomenu2 ul li ul{
+	position: absolute;
+	visibility: hidden;
+	
+	
+}
+.logomenu2 ul li ul li{
+    width: 250px;
+	font-family: r6;
+	background-color:rgba(36,153,255,1.00);
+	left: -43px;
+	top: 15px;
+	font-weight: 800;
+	
+	
+	
+}
+.logomenu2 ul li:hover ul{
+	visibility: visible;
+	
+	
+	
+}
+.logomenu2 ul li ul li a{
+	color: black;
+}
+.logomenu2 ul li ul li:hover {
+	background-color:rgba(0,255,255,1.00);
+}
+
+
+.logomenu3{
+	width: 480px;
+	height: 80px;
+	background-color: #24262a;
+	float: left;
+	font-weight: 800;
+	font-family: r6;
+	font-size: 150%;
+	
+		
+}
+.in3{
+	width: 190px;
+	height: 60px;
+	background-color:rgba(36,153,255,1.00);
+	float: right;
+	margin: 2%;
+	text-align: center;
+	color:black;
+	font-family: r6;
+	padding: 15px;
+	box-sizing: border-box;
+	justify-content: center;
+	display: flex;
+		
+}
+.in3:hover{
+	background-color: aqua;
+}
+.back{
+	width: 100%;
+	height: 890px;
+	background-image: url( "../images/r6s-gameinfo-discover-intro-bg.webp");
+	background-size: cover;
+	float: left;
+	
+}
+.new{
+	width: 380px;
+	height: 380px;
+	background-color: #ffffff99;
+	margin-top: 350px;
+	margin-left: 100px;
+	font-family: r6;
+	text-align: left;
+	padding: 25px;
+	box-sizing: border-box;
+	background-size: cover;
+	color: black;
+	
+}
+.newbox{
+	width: 200px;
+	height: 60px;
+	background-color:rgba(36,153,255,1.00);
+	text-align: center;
+	color: black;
+	font-weight: 500;
+	font-family: r6;
+	padding-bottom: 6px;
+	
+	letter-spacing: 0.5px;
+	
+}
+.newbox:hover{
+	background-color: aqua;
+}
+.new1{
+	width: 400px;
+	height: 250px;
+	background-image: url("../images/r6s-seasons-y6s2-main.webp");
+	float: right;
+	margin-top: -200px;
+	margin-right: 100px;
+	background-size:cover;
+	font-weight: 500;
+	font-family: r6;	
+}
+.topnew1{
+	width: 400px;
+	height: 50px;
+	background-color: #ffffff99;
+	text-align: center;
+	font-family: r6;
+	font-weight: 800;
+	padding-top: -10px;
+	box-sizing: border-box;
+	font-size: 250%;
+	letter-spacing: 0.5px;
+	
+	
+}
+.newbox1{
+	width: 120px;
+	height: 44px;
+	background-color:rgba(36,153,255,1.00);
+	text-align: center;
+	margin-left: 140px;
+	margin-top: 130px;
+	padding: 6px;
+	box-sizing: border-box;
+	font-size: 150%;
+	
+}
+.newbox1:hover{
+	background-color: aqua;
+}
+.giua{
+	width: 100%;
+	height: 1550px;
+	background-image: url("../images/r6s-bg-default-repeat.jpg");
+	float: left;
+	background-size: cover;
+	
+	
+}
+.trai{
+	width: 50%;
+	height: 1550px;
+	background-image: url("../images/h1.png");
+	
+	float: left;
+	text-align: center;
+	color: aliceblue;
+ 	font-family: r6;
+	
+	
+}
+.phai{
+	width: 50%;
+	height: 1550px;
+	background-image:url("../images/h2.png");
+	
+	float: right;
+	text-align: center;
+	color: aliceblue;
+	font-family: r6;
+}
+.trong{
+	width: 100%;
+	height: 1200px;
+	
+	
+}
+.trongtrai{
+	width: 850px;
+	height: 750px;
+	
+	float: left;
+	margin-left: 70px;
+	box-sizing: border-box;
+	
+}
+.trongtrai1{
+	width: 850px;
+	height: 500px;
+	background-image: url("../images/r6s-battlepass-highlight.webp");
+	background-size: cover;
+}
+.trongtrai2{
+	width: 850px;
+	height: 250px;
+	text-align: left;
+	padding-left:25px;
+	color: black;
+	font-family: r6;
+	box-sizing: border-box;
+	background-color: #ffffff99;
+	
+	
+}
+.boxtrai{
+	width: 130px;
+	height: 55px;
+	background-color:rgba(36,153,255,1.00);
+	text-align: center;
+	font-weight: 800;
+	margin-top: 15px; 
+	box-sizing: border-box;
+	padding-top: 12px;
+	
+	
+		
+	
+	
+}
+.boxtrai:hover{
+	background-color: aqua;
+	
+}
+.trongphai{
+	width: 850px;
+	height: 750px;
+	
+	float: right;
+	margin-right: 100px;
+}
+.phai1{
+	width: 900px;
+	height: 250px;
+	
+	margin-bottom: 3%;
+	box-sizing: border-box;
+	
+}
+.phai1-1{
+	width: 450px;
+	height: 250px;
+	background: url( "../images/R6S_Y6S3_PatchNotes.webp");
+	background-size: cover;
+	float: left;
+	
+	
+	
+}
+.phai1-2{
+	width:450px;
+	height: 250px;
+	background-color:#ffffff99;
+	float: right;
+	font-family: r6;
+	color: black;
+	text-align: left;
+	box-sizing: border-box;
+	padding-left: 10px;
+	
+	font-size: 105%
+	
+}
+.botton{
+	width: 100px;
+	height: 25px;
+	background-color: black;
+	color: white;
+	
+	padding-top: 1px;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: 500;
+	
+	
+}
+.botton2{
+	width: 100px;
+	height: 25px;
+	background-color: black;
+	color: white;
+	
+	
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: 500;
+}
+.readmore{
+	width:110px;
+	height:35px;
+	background-color:rgba(36,153,255,1.00);
+	margin-top: 10px;
+	padding-top: 2px;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: 500;
+		
+}
+.readmore2{
+	width:110px;
+	height:35px;
+	background-color:rgba(36,153,255,1.00);
+	margin-top: 10px;
+	padding-top: 2px;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: 500;
+		
+}
+.readmore:hover{
+	background-color: aqua;
+}
+.readmore2:hover{
+	background-color: aqua;
+}
+	
+
+.phai2{
+	width: 900px;
+	height: 250px;
+	
+	margin-bottom: 3%;
+}
+.phai2-1{
+	width: 450px;
+	height: 250px;
+	background: url(  "../images/R6S_FWE_EN.webp");
+	background-size: cover;
+	float: left;
+	
+	
+}
+.phai2-2{
+	width:450px;
+	height: 250px;
+	background-color:#ffffff99;
+	float: right;
+	font-family: r6;
+	color: black;
+	text-align: left;
+	box-sizing: border-box;
+	padding-left: 10px;
+	
+	font-size: 105%
+	}
+.phai3{
+	width: 900px;
+	height: 250px;
+	
+}
+.phai3-1{
+	width: 450px;
+	height: 250px;
+	background: url(  "../images/R6S_Y6S3_SixthGuardian_Header.webp");
+	background-size: cover;
+	float: left;
+}
+.phai3-2{
+	width:450px;
+	height: 250px;
+	background-color:#ffffff99;
+	float: right;
+	font-family: r6;
+	color: black;
+	text-align: left;
+	box-sizing: border-box;
+	padding-left: 10px;
+	
+	font-size: 105%
+	
+	}
+.allnew{
+	width: 120px;
+	height: 55px;
+	background-color:rgba(36,153,255,1.00);
+	margin-top: 660px;
+	margin-left: -70px;
+	font-weight: 600;
+	text-align: center;
+	font-family: r6;
+	font-size: 150%;
+	padding-top: 11px;
+	box-sizing: border-box;
+	opacity: 0.9;	
+		
+}
+.endnew{
+	width: 1500px;
+	height: 300px;
+	margin-left: 220px;
+	margin-top: 1200px;
+	box-sizing: border-box;
+	
+}
+.endtrai{
+	width: 750px;
+	height: 250px;
+	background-image: url("../images/UBIC_SIX_COLLECTION_HIBANA.webp");
+	background-size: cover;
+}
+.endphai{
+	width: 750px;
+	height: 250px;
+	background-color:rgba(255,255,255,0.1);
+	box-sizing: border-box;
+	float: right;
+	margin-top: -350px;
+	letter-spacing: 1px;
+	text-align:left;
+	padding-left: 30px;
+	padding-top: 1px;
+	color: white;
+	font-family: r6;
+	font-size: 130%;
+}
+.discover{
+	width: 160px;
+	height: 55px;
+	background-color:rgba(36,153,255,1.00);
+	text-align: center;
+	font-weight: 600;
+	margin-top: 20px;
+	font-size: 130%;
+	padding-top: 10px;
+	box-sizing: border-box;
+	letter-spacing: 0.2px;
+	color: #24262a;
+}
+.discover:hover{
+	background-color: aqua;
+}
+.allnew:hover{
+	background-color: aqua;
+}
+.gameplay{
+	width: 100%;
+	height: 1100px;
+	background-image: url("../images/r6s-gameinfo-discover-gameplay-bg.webp");
+	float: left;
+	background-size: cover;
+	justify-content: center;
+	display: flex;
+}
+.gameplay1{
+	width: 50%;
+	height: 500px;
+	font-weight: 700;
+	margin-top: 125px;
+	box-sizing: border-box;
+	
+}
+.game1{
+	width: 100%;
+	height: 60px;
+	letter-spacing:3px;
+	text-align: center;
+	color:#ffffff;
+	font-family: r6;
+	box-sizing: border-box;
+	font-size: 400%;
+	text-shadow: 1px 2px 1px black ;
+}
+.game2{
+	width: 100%;
+	height: 70px;
+	font-size: 600%;
+	text-align: center;
+	color:#00ffe6;
+	letter-spacing:2px;
+	box-sizing: border-box;
+	font-family: r6;
+	text-shadow: 1px 6px 10px black ;
+}
+.game3{
+	width: 100%;
+	height: 200px;
+	font-family: r6;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 150px;
+	box-sizing: border-box;
+	font-size: 240%;
+	text-shadow: 1px 4px 15px black ;
+	letter-spacing:1px;
+}
+.game4{
+	width: 100%;
+	height: 200px;
+	font-size: 120%;
+	text-align: center;
+	color: #00ffe6;
+	padding-top: 100px;
+	box-sizing: border-box;
+	font-family: r6;
+	text-shadow: 1px 4px 10px black ;
+	
+}
+.bot{
+	width: 700px;
+	height: 180px;
+	
+	margin-left: 136px;
+	margin-top: 330px;
+	justify-content: center;
+	
+		
+	
+}
+.bot1{
+	width:150px;
+	height: 150px;
+	background-image: url("../images/download (1).webp");
+	background-size: cover;
+	float: left;
+	letter-spacing:0.3px;
+}
+.bot1-1{
+	width:150px;
+	height: 30px;
+	text-align: center;
+	margin-top: 150px;
+	font-family: r6;
+	color: aliceblue;
+	font-size: 200%;
+	
+}
+.bot2{
+	width:150px;
+	height: 150px;
+	background-image: url( "../images/download (2).webp");
+	background-size: cover;
+	float: left;
+	margin-left: 110px;
+	box-sizing: border-box;
+	letter-spacing:0.2px;
+}
+.bot2-1{
+	width:150px;
+	height: 30px;
+	text-align: center;
+	margin-top: 150px;
+	font-family: r6;
+	color: aliceblue;
+	font-size: 200%;
+	
+}
+.bot3{
+	width:150px;
+	height: 150px;
+	background-image: url( "../images/download.webp");
+	background-size: cover;
+	float: left;
+	margin-left: 110px;
+	letter-spacing:0.2px;
+}
+.bot2-1{
+	width:150px;
+	height: 30px;
+	text-align: center;
+	margin-top: 150px;
+	font-family: r6;
+	color: aliceblue;
+	font-size: 200%;
+	
+}
+@font-face{
+	font-family: r6;
+	src: url(  "../font/Scout Font Family/ScoutCond-LightItalic.otf");
+}
+.qf{
+	width: 100%;
+	height: 900px;
+	background-image: url("../images/R6S_SquadFinder_bkg.webp");
+	background-size: cover;
+	float: left;
+	justify-content: center;
+	display: flex;
+	
+}
+.qf1{
+	width: 100%;
+	height: 900px;
+	
+	background: rgba(30, 46, 80, 0.6);
+}
+.qf2{
+	width: 600px;
+	height: 107px;
+	background-image: url("../images/SQUADFINDER-logo.webp");
+	margin-top: 430px;
+	margin-left: 600px;
+	
+}
+.qf3{
+	width: 800px;
+	font-size: 210%;
+	letter-spacing: 1px;
+	padding-top: -10;
+	margin-left: 500px;
+	color: aliceblue;
+	text-align: center;
+	font-family: r6;
+	box-sizing: border-box;
+}
+.qf4{
+	width: 1200px;
+	height: 50px;
+	
+	margin-left: 300px;
+	margin-top: 40px;
+	color: aliceblue;
+	text-align: center;
+	font-family: r6;
+	font-size: 130%;
+	letter-spacing: 1.5px;
+}
+.qf5{
+	width: 300px;
+	height: 50px;
+	
+	margin-left: 470px;
+	margin-top: 30px
+		
+}
+.qf5-1{
+	width:110px;
+	height: 55px;
+	background-color:rgba(36,153,255,1.00);
+	float: left;
+	font-family: r6;
+	font-size: 130%;
+	padding-top:10px;
+	box-sizing: border-box;
+	color: black;
+	font-weight: 500;
+}
+.qf5-2{
+	width:160px;
+	height: 55px;
+	background-color:rgba(36,153,255,1.00);
+	float: right;
+	font-family: r6;
+	font-size: 130%;
+	padding-top:10px;
+	box-sizing: border-box;
+	color: black;
+	font-weight: 500;
+}
+.qf5-2:hover{
+	background-color: aqua;
+}
+.qf5-1:hover{
+	background-color: aqua;
+}
+.osa{
+	width: 100%;
+	height: 1050px;
+	background-image: url("../images/r6s-bg-operators.jpg");
+	background-size: cover;
+	float: left;
+	
+	
+	}
+.osa1{
+	width: 50%;
+	height: 150px;
+	color: #ffffff;
+	margin-left: 490px;
+	padding-top: 80px;
+	font-family: r6;
+	font-size: 500%;
+	font-weight: 600;
+	letter-spacing: 2.5px;
+	box-sizing: border-box;
+	text-align: center;
+	text-shadow: 1px 5px 20px black ;
+}
+.osa2{
+	width: 50%;
+	height: 900px;
+	background-image: url("../images/r6s-operator-osa.webp");
+	background-size: cover;
+	margin-left: 480px;
+	justify-content: center;
+	display: flex;
+	
+}
+.osa2-1{
+	width: 100px;
+	height: 70px;
+	background-color:rgba(36,153,255,1.00);
+	margin-top: 700px;
+	color: #24262a;
+	font-family: r6;
+	text-align: center;
+	font-size: 300%;
+	font-weight: 600;
+	padding-top: 4px;
+	box-sizing: border-box;
+	letter-spacing: 0.5px;
+}
+.osa2-1:hover{
+	background-color:rgba(0,255,255,1.00);
+}
+.social{
+	width: 100%;
+	height: 70px;
+	background-color: black;
+	float: left;
+	box-sizing: border-box;
+}
+.social1{
+	width:9%;
+	height: 70px;
+	color: #888787;
+	margin-left: 50px;
+	margin-top: 20px;
+	font-family: r6;
+	font-size: 130%;
+	letter-spacing: 1.5px;
+	box-sizing: border-box;
+	float: left;
+}
+.social2{
+	width:88%;
+	height: 70px;
+	box-sizing: border-box;
+	background-color: black;
+	float: right;
+	justify-content: center;
+	display: flex;
+}
+.social2-1{
+	width: 40px;
+	height: 40px;
+	background-image: url("../images/social_reddit.png");
+	margin: 14px;
+	border-radius: 50%;
+	background-size: cover;
+	
+	
+}
+.social2-2{
+	width: 40px;
+	height: 40px;
+	background-image: url(  "../images/fb.png");
+	background-size: cover;
+	margin: 14px;
+	border-radius: 50%;
+	
+	
+}
+.social2-3{
+	width: 40px;
+	height: 40px;
+	background-image: url(  "../images/tew.png");
+	background-size: cover;
+	margin: 14px;
+	border-radius: 50%;
+	
+	
+}
+.social2-4{
+	width: 40px;
+	height: 40px;
+	background-image: url(  "../images/insta.png");
+	background-size: cover;
+	margin: 14px;
+	border-radius: 50%;
+	
+	
+}
+.social2-5{
+	width: 40px;
+	height: 40px;
+	background-image: url(   "../images/chat.png");
+	background-size: cover;
+	margin: 14px;
+	border-radius: 50%;
+	
+	
+}
+.social2-6{
+	width: 40px;
+	height: 40px;
+	background-image: url( "../images/you.png");
+	background-size: cover;
+	margin: 14px;
+	border-radius: 50%;
+	
+	
+}
+.social2-7{
+	width: 40px;
+	height: 40px;
+	background-image: url(   "../images/twitcch.png");
+	background-size: cover;
+	margin: 14px;
+	border-radius: 50%;
+	
+	
+}
+.social2-8{
+	width: 40px;
+	height: 40px;
+	background-image: url( "../images/discord_social.png");
+	background-size: cover;
+	margin: 14px;
+	border-radius: 50%;
+	
+}
+.social2-8:hover{
+	border:3px solid aqua;
+}
+.social2-7:hover{
+	border:3px solid aqua;
+}
+.social2-6:hover{
+	border:3px solid aqua;
+}
+.social2-5:hover{
+	border:3px solid aqua;
+}
+.social2-4:hover{
+	border:3px solid aqua;
+}
+.social2-3:hover{
+	border:3px solid aqua;
+}
+.social2-2:hover{
+	border:3px solid aqua;
+}
+.social2-1:hover{
+	border:3px solid aqua;
+}
+.cuoi{
+	width: 100%;
+	height: 450px;
+	background-color: black;
+	float: left
+}
+.cuoi-t{
+	width: 20%;
+	height: 450px;
+	float: left;
+	background-color:#24262a;
+	
+}
+.t1{
+	width: 180px;
+	height: 58px;
+	background-image: url("../images/footer_logo.webp");
+	margin-left: 50px;
+	margin-top: 40px;
+}
+.t2{
+	width: 220px;
+	height: 180px;
+	font-family: roboto;
+	margin-left: 50px;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 110%
+	
+}
+.t3{
+	width: 100px;
+	height: 100px;
+	color: #ffffff;
+	margin-left: 50px;
+	margin-top: 70px;
+	font-family: robotothin;
+	font-size: 70%;
+	
+}
+.cuoi-p{
+	width: 80%;
+	height: 450px;
+	float: left;
+	background-color:#181a1c;
+}
+.p1{
+	width: 188px;
+	height: 50px;
+	background-image: url( "../images/lg.png");
+	margin-left: 60px;
+	margin-top: 40px;
+	
+	
+}
+.p2{
+	margin-left: 60px;
+	width: 250px;
+	height: 60px;
+	color: #ffffff;
+	margin-top: 50px;
+	font-family: robotothin;
+	font-size: 70%;
+	box-sizing: border-box;
+	float: left;
+}
+.p2-1{
+	width: 200px;
+	height: 20px;
+	color: #ffffff;
+	font-family: roboto;
+	font-size: 180%;
+	
+}
+.p3{
+	margin-left: 100px;
+	width: 250px;
+	height: 60px;
+	color: #ffffff;
+	margin-top: 50px;
+	font-family: robotothin;
+	font-size: 70%;
+	box-sizing: border-box;
+	float: left;
+	
+}
+.p3-1{
+	width: 188px;
+	height: 20px;
+	color: #ffffff;
+	font-family: roboto;
+	font-size: 180%;
+	
+		
+	
+}
+.p4{
+	margin-left: 100px;
+	width: 200px;
+	height: 60px;
+	color: #ffffff;
+	margin-top: 45px;
+	font-family: robotothin;
+	font-size: 70%;
+	box-sizing: border-box;
+	float: left;
+	
+}
+.p4-1{
+	width: 188px;
+	height: 20px;
+	color: #ffffff;
+	font-family: roboto;
+	font-size: 180%;
+}
+.warning{
+	margin-left: 1300px;
+	width: 66px;
+	height: 81px;
+	color: #ffffff;
+	margin-top: -100px;
+	font-family: robotothin;
+	font-size: 70%;
+	box-sizing: border-box;
+	float: left;
+	background-image: url("../images/pegi18-white.webp");
+	
+	
+}
+.textend{
+	width: 1100px;
+	height: 60px;
+	
+	margin-left: 60px;
+	margin-top: 280px;
+	color: #ffffff;
+	text-align: center;
+	font-family: robotothin;
+	font-size: 75%;
+	clear: both;
+}
+
+@font-face{
+	font-family: roboto;
+	src: url( "../font/Roboto-Bold.ttf");
+}
+@font-face{
+	font-family: robotothin;
+	src: url(  "../font/Roboto-Medium.ttf");
+}
